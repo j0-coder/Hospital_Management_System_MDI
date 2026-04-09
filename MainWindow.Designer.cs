@@ -81,28 +81,28 @@
             // NewPatientToolStripMenuItem
             // 
             this.NewPatientToolStripMenuItem.Name = "NewPatientToolStripMenuItem";
-            this.NewPatientToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.NewPatientToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.NewPatientToolStripMenuItem.Text = "New Patient";
             this.NewPatientToolStripMenuItem.Click += new System.EventHandler(this.HandleForms);
             // 
             // NewDoctorToolStripMenuItem
             // 
             this.NewDoctorToolStripMenuItem.Name = "NewDoctorToolStripMenuItem";
-            this.NewDoctorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.NewDoctorToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.NewDoctorToolStripMenuItem.Text = "New Doctor";
             this.NewDoctorToolStripMenuItem.Click += new System.EventHandler(this.HandleForms);
             // 
             // NewBillingfToolStripMenuItem
             // 
             this.NewBillingfToolStripMenuItem.Name = "NewBillingfToolStripMenuItem";
-            this.NewBillingfToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.NewBillingfToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.NewBillingfToolStripMenuItem.Text = "New Billing";
             this.NewBillingfToolStripMenuItem.Click += new System.EventHandler(this.HandleForms);
             // 
             // ExitToolStripMenuItem
             // 
             this.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem";
-            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.ExitToolStripMenuItem.Text = "Exit";
             this.ExitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolStripMenuItem_Click);
             // 
@@ -204,7 +204,7 @@
             this.OpenDoctorFormToolStripMenuItem,
             this.CloseAllWindosToolStripMenuItem});
             this.ContextMenuStrip1.Name = "contextMenuStrip1";
-            this.ContextMenuStrip1.Size = new System.Drawing.Size(192, 70);
+            this.ContextMenuStrip1.Size = new System.Drawing.Size(192, 92);
             // 
             // OpenPatientFormToolStripMenuItem
             // 
@@ -220,6 +220,7 @@
             this.OpenDoctorFormToolStripMenuItem.Name = "OpenDoctorFormToolStripMenuItem";
             this.OpenDoctorFormToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
             this.OpenDoctorFormToolStripMenuItem.Text = "Open Doctor Form";
+            this.OpenDoctorFormToolStripMenuItem.Click += new System.EventHandler(this.HandleForms);
             // 
             // CloseAllWindosToolStripMenuItem
             // 
